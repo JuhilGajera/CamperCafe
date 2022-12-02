@@ -1,0 +1,86 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("Image.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: relative;
+   
+}
+
+/* hr {
+    border-top: 1px solid
+} */
+
+.text-block {
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    left: 300px;
+    bottom: 30px;
+    background-color: #eab676;
+    color: #4E2E2B;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+}
+.container{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: auto auto;
+}
+.grid1{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.grid2{
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+hr {
+    /* border: none; */
+    background: #4E2E2B;
+    border: 2px solid #4E2E2B;
+}
+
+.f1 {
+    font-size: 25px;
+}
+
+img {
+    margin-top: -16px;
+    height: 30px;
+    width: 30px;
+}
+
+.coffee {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.grid3{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.grid4{
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
